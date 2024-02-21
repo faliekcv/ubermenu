@@ -1,0 +1,40 @@
+/* UberMenu Config */
+.ubermenu-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ubermenu a.ubermenu-target{
+    color: #fff;
+}
+.ubermenu a.ubermenu-target:hover{
+    color:#98c52d;
+    cursor:pointer;
+}
+.ubermenu-sub-indicators .ubermenu-has-submenu-drop>.ubermenu-target{
+    color:#fff;
+}
+
+.ubermenu.ubermenu-disable-submenu-scroll .ubermenu-item>.ubermenu-submenu.ubermenu-submenu-type-mega .ubermenu-tab-layout-left{
+    background-color: #fff;
+    border-top:1px solid #38587e;
+}
+.ubermenu.ubermenu-disable-submenu-scroll .ubermenu-item>.ubermenu-submenu.ubermenu-submenu-type-mega{
+    background-color: #0D2D53;
+}
+.ubermenu:not(.ubermenu-transition-slide) .ubermenu-submenu.ubermenu-submenu-type-flyout{
+
+}
+.ubermenu-submenu-drop{
+
+}
+.ubermenu .ubermenu-tab-layout-left>.ubermenu-tabs-group li a{
+    color:#545454;
+}
+.ubermenu:not(.ubermenu-transition-slide) .ubermenu-submenu.ubermenu-submenu-type-flyout{
+    background-color: #0D2D53;
+    border-top:1px solid #38587e;
+}
+.ubermenu .ubermenu-tab-layout-left>.ubermenu-tabs-group{
+    border-color: #38587e;
+}
